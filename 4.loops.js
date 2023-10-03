@@ -1,0 +1,9 @@
+// let num = 0;
+// while(num<=100)
+// {
+//     console.log(num);
+//     num++;
+// }
+
+for(let i=0; i<=100; i++)
+    console.log(i);

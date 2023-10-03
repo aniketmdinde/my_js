@@ -1,0 +1,57 @@
+.container
+{
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 75%;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-blackjack-row-1
+{
+    background: url("https://i.pinimg.com/originals/1d/43/cf/1d43cfdb024c0aaea0b97f09370a30f3.jpg") center;
+    color: white;
+}
+
+.flex-blackjack-row-2
+{
+    background: url("https://i.pinimg.com/originals/1d/43/cf/1d43cfdb024c0aaea0b97f09370a30f3.jpg") center;
+}
+
+.flex-blackjack-row-2 div
+{
+    padding: 10px;
+}
+
+.flex-blackjack-row-1 div
+{
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    height: 350px;
+}
+
+table, th, td
+{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#your-box-imgs, #dealer-box-imgs
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+img
+{
+    height: 90px;
+}
